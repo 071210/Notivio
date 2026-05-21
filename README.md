@@ -24,7 +24,7 @@
 | LLM Summarization | GPT-4o-mini (OpenAI API) |
 | Backend | Python, Flask |
 | Document Parsing | PyMuPDF, python-docx, python-pptx |
-| Frontend | HTML, CSS, JavaScript |
+| Frontend | HTML, CSS|
 | Storage | JSON |
 
 ---
@@ -47,15 +47,15 @@
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.11+
 - OpenAI API key
 
 ### Installation
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/notivio.git
-cd notivio
+git clone https://github.com/071210/Notivio.git
+cd Notivio
 
 # 2. Create a virtual environment
 python -m venv venv
@@ -76,31 +76,6 @@ echo "OPENAI_API_KEY=your_api_key_here" > .env
 python app.py
 ```
 
-Then open your browser and go to: `http://localhost:5000`
-
----
-
-## 📂 Project Structure
-
-```
-notivio/
-├── app.py                  # Flask application entry point
-├── requirements.txt        # Python dependencies
-├── .env                    # API keys (not committed)
-├── static/                 # CSS, JS, assets
-├── templates/              # HTML templates
-├── uploads/                # Uploaded files (temp)
-├── outputs/                # Generated PDFs and JSON
-└── modules/
-    ├── transcriber.py      # Whisper speech-to-text
-    ├── summarizer.py       # GPT-4o-mini summarization
-    ├── translator.py       # Translation module
-    ├── flashcard.py        # Flashcard generation
-    └── exporter.py         # PDF export
-```
-
-> _Adjust the structure above to match your actual project layout._
-
 ---
 
 ## 🎯 How It Works
@@ -108,13 +83,13 @@ notivio/
 ```
 Input (Audio / Document)
         ↓
-  Preprocessing & Extraction
+Preprocessing & Extraction
         ↓
-  Whisper Transcription (audio) / Text Extraction (document)
+Whisper Transcription (audio) / Text Extraction (document)
         ↓
-  GPT-4o-mini Summarization
+GPT-4o-mini Summarization
         ↓
-  Output: Summary + Flashcards + Translation + PDF Export
+Output: Summary + Flashcards + Translation + PDF Export
 ```
 
 ---
