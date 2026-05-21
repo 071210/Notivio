@@ -1,22 +1,22 @@
-# 📝 Notivio — AI-Powered Lecture & Meeting Summarization System
+# Notivio — AI-Powered Lecture & Meeting Summarization System
 
 > Automatically transcribe and summarize lectures or meetings from audio files and documents using state-of-the-art AI models.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎙️ **Audio Transcription** — Upload audio files and convert speech to text using OpenAI Whisper
-- 📄 **Document Summarization** — Upload PDF, DOCX, PPTX, or TXT files for instant AI-generated summaries
-- 🧠 **LLM Summarization** — Structured, intelligent summaries powered by GPT-4o-mini
-- 🌐 **Multilingual Translation** — Translate summaries into multiple languages
-- 🃏 **Flashcard Generation** — Auto-generate study flashcards from summarized content
-- 📥 **PDF Export** — Download summaries as formatted PDF reports
-- 💾 **JSON Storage** — Persist session data locally in JSON format
+- **Audio Transcription** — Upload audio files and convert speech to text using OpenAI Whisper
+- **Document Summarization** — Upload PDF, DOCX, PPTX, or TXT files for instant AI-generated summaries
+- **LLM Summarization** — Structured, intelligent summaries powered by GPT-4o-mini
+- **Multilingual Translation** — Translate summaries into multiple languages
+- **Flashcard Generation** — Auto-generate study flashcards from summarized content
+- **PDF Export** — Download summaries as formatted PDF reports
+- **JSON Storage** — Persist session data locally in JSON format
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -29,7 +29,7 @@
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ## Upload Page
 ![Home Page](upload.png)
@@ -37,7 +37,7 @@
 ## Result Page
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ python app.py
 
 ---
 
-## 🎯 How It Works
+## How It Works
 
 ```
 Input (Audio / Document)
@@ -88,7 +88,7 @@ Output: Summary + Flashcards + Translation + PDF Export
 
 ---
 
-## 📋 Supported File Formats
+## Supported File Formats
 
 | Type | Formats |
 |------|---------|
@@ -97,7 +97,7 @@ Output: Summary + Flashcards + Translation + PDF Export
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Yew Zhi Yu**
 Final Year Student — Bachelor of Computer Science (Artificial Intelligence)
