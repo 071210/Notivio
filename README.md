@@ -34,8 +34,7 @@
 ## Upload Page
 ![Home Page](upload.png)
 
-```
-
+## Result Page
 ---
 
 ## 🚀 Getting Started
