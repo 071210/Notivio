@@ -31,14 +31,9 @@
 
 ## 📸 Screenshots
 
-<!-- Add your screenshots here -->
-> _Add screenshots of your UI here after uploading to GitHub_
+## Upload Page
+![Home Page](upload.png)
 
-```
-/screenshots
-  ├── upload_page.png
-  ├── summary_output.png
-  └── flashcards.png
 ```
 
 ---
