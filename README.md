@@ -31,10 +31,18 @@
 
 ## Screenshots
 
-## Upload Page
+### Welcome Page
+![Home Page](welcome.png)
+
+### Upload Page
 ![Home Page](upload.png)
 
-## Result Page
+### Result Page
+![Home Page](result.png)
+
+### History Page
+![Home Page](history.png)
+
 ---
 
 ## Getting Started
