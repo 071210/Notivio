@@ -1,28 +1,141 @@
-# NOTIVIO: AI-Powered Lecture and Meeting Summarization System
-Automatically transcribe and summarize lectures or meetings from audio files and documents using state-of-the-art AI models.
-# OVERVIEW
-Notivio is an AI-powered system that automatically converts lecture and meeting audio or documents into structured summaries. It uses Whisper for speech-to-text and GPT-4o-mini for LLM-based summarization, providing concise and organized outputs for students and professionals.
-The system supports both audio input and document input, making it a full-stack AI application with a web interface.
-# FEATURES
-Speech-to-text transcription using Whisper
-Audio Pre-processing
-Document Extraction
-Text Pre-processing
-Summarization
-Translation
-Generate Flashcards
-PDF Export
-JSON storage for results
-# Tech Stack
-LayerTechnologySpeech-to-TextOpenAI Whisper (whisper-small)LLM SummarizationGPT-4o-mini (OpenAI API)BackendPython, FlaskDocument ParsingPyMuPDF, python-docx, python-pptxFrontendHTML, CSS, JavaScriptStorageJSON
-# System Architecture
-User uploads audio or document
-Audio → Whisper transcription
-Text → Extraction 
-System generates:
-  Transcription
-  Structured summary
-  Flashcards
-Exportable PDF
+# 📝 Notivio — AI-Powered Lecture & Meeting Summarization System
 
-# How to Run
+> Automatically transcribe and summarize lectures or meetings from audio files and documents using state-of-the-art AI models.
+
+---
+
+## ✨ Features
+
+- 🎙️ **Audio Transcription** — Upload audio files and convert speech to text using OpenAI Whisper
+- 📄 **Document Summarization** — Upload PDF, DOCX, PPTX, or TXT files for instant AI-generated summaries
+- 🧠 **LLM Summarization** — Structured, intelligent summaries powered by GPT-4o-mini
+- 🌐 **Multilingual Translation** — Translate summaries into multiple languages
+- 🃏 **Flashcard Generation** — Auto-generate study flashcards from summarized content
+- 📥 **PDF Export** — Download summaries as formatted PDF reports
+- 💾 **JSON Storage** — Persist session data locally in JSON format
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Speech-to-Text | OpenAI Whisper (whisper-small) |
+| LLM Summarization | GPT-4o-mini (OpenAI API) |
+| Backend | Python, Flask |
+| Document Parsing | PyMuPDF, python-docx, python-pptx |
+| Frontend | HTML, CSS, JavaScript |
+| Storage | JSON |
+
+---
+
+## 📸 Screenshots
+
+<!-- Add your screenshots here -->
+> _Add screenshots of your UI here after uploading to GitHub_
+
+```
+/screenshots
+  ├── upload_page.png
+  ├── summary_output.png
+  └── flashcards.png
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9+
+- OpenAI API key
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/notivio.git
+cd notivio
+
+# 2. Create a virtual environment
+python -m venv venv
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Set up your OpenAI API key
+# Create a .env file in the root directory:
+echo "OPENAI_API_KEY=your_api_key_here" > .env
+```
+
+### Running the App
+
+```bash
+python app.py
+```
+
+Then open your browser and go to: `http://localhost:5000`
+
+---
+
+## 📂 Project Structure
+
+```
+notivio/
+├── app.py                  # Flask application entry point
+├── requirements.txt        # Python dependencies
+├── .env                    # API keys (not committed)
+├── static/                 # CSS, JS, assets
+├── templates/              # HTML templates
+├── uploads/                # Uploaded files (temp)
+├── outputs/                # Generated PDFs and JSON
+└── modules/
+    ├── transcriber.py      # Whisper speech-to-text
+    ├── summarizer.py       # GPT-4o-mini summarization
+    ├── translator.py       # Translation module
+    ├── flashcard.py        # Flashcard generation
+    └── exporter.py         # PDF export
+```
+
+> _Adjust the structure above to match your actual project layout._
+
+---
+
+## 🎯 How It Works
+
+```
+Input (Audio / Document)
+        ↓
+  Preprocessing & Extraction
+        ↓
+  Whisper Transcription (audio) / Text Extraction (document)
+        ↓
+  GPT-4o-mini Summarization
+        ↓
+  Output: Summary + Flashcards + Translation + PDF Export
+```
+
+---
+
+## 📋 Supported File Formats
+
+| Type | Formats |
+|------|---------|
+| Audio | MP3, WAV, M4A, MP4 |
+| Document | PDF, DOCX, PPTX, TXT |
+
+---
+
+## 👨‍💻 Author
+
+**Yew Zhi Yu**
+Final Year Student — Bachelor of Computer Science (Artificial Intelligence)
+Universiti Teknikal Malaysia Melaka (UTeM)
+
+---
+
+## 📄 License
+
+This project is developed as a Final Year Project (FYP) for academic purposes.
